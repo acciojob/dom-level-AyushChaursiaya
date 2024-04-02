@@ -2,7 +2,7 @@
 // domLevel.js
 document.addEventListener("DOMContentLoaded", function() {
     var element = document.getElementById('level');
-    var level = 0;
+    var level = 1;
     
     // Traverse through the parent elements until reaching the root html element
     while (element.parentElement) {
