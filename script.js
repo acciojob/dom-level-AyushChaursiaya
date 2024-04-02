@@ -1,6 +1,6 @@
 //your JS code here. If required.
 
-addEventListner("DOMContentLoaded", () => {
+addEventListner("DOMContentLoaded", function() {
 	const element = document.getElementById("level");
 	let count = 0;
 	while (element.parentElement) {
