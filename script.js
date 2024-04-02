@@ -5,7 +5,7 @@ addEventListner("DOMContentLoaded", function() {
 	let count = 0;
 	while (element.parentElement) {
 		count++;
-		element = element.perentElement;
+		element = element.parentElement;
 	}
 	
 	alert("The level of the element is: ", count);
