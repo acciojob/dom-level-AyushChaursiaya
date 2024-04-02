@@ -1,5 +1,5 @@
 //your JS code here. If required.
-domLevel.js
+
 document.addEventListener("DOMContentLoaded", function() {
     var element = document.getElementById('level');
     var level = 1;
